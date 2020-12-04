@@ -10,6 +10,7 @@ html{
 }
 
 body{
+    font-family: 'Kumbh Sans', sans-serif;
     background: rgb(101,101,231);
     background: linear-gradient(173deg, rgb(175, 103, 233) 0%, rgba(101,101,231,1) 100%);
     display: flex;
@@ -44,9 +45,17 @@ body{
     display: none;
 }
 
+.tittle-active{
+    font-weight:700;
+}
 
 .active{
     display: block;
+    margin-top: 5px;
+}
+
+.active-Arrow{
+    transform: rotate(180deg);
 }
 
 .card-tittle{
