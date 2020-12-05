@@ -2,8 +2,6 @@
 const escuchandoElBody = document.body.addEventListener("click", elementoClick);
 
 
-
-
 //Declaramos las funciones
 
 function elementoClick(e) {
@@ -23,8 +21,8 @@ function elementoClick(e) {
 
 //Funciones
 
-    //Reinicia los acordeones al dar click, se cierra el que estaba abierto si da click en otro
-function reiniciaTodosLosAcordeones () {
+//Reinicia los acordeones al dar click, se cierra el que estaba abierto si da click en otro
+function reiniciaTodosLosAcordeones() {
     //Selecciona todos los titulos de acordeones y los convierte a un array
     let tittle = document.querySelectorAll('.card-tittle-text');
     tittle = [...tittle];
@@ -33,9 +31,9 @@ function reiniciaTodosLosAcordeones () {
     posterior a eso verifica si cuentan con la clase tittle active y si es así
     remueve la clase activa del elemento y de sus hermanos || Es de nivel EXPONENCIAL, se debe buscar OPTIMIZAR
      */
-    for (let i = 0; i<tittle.length; i++){
-        for (let j=0; j<tittle[i].classList.length; j++){
-            if (tittle[i].classList[j] == 'tittle-active'){
+    for (let i = 0; i < tittle.length; i++) {
+        for (let j = 0; j < tittle[i].classList.length; j++) {
+            if (tittle[i].classList[j] == 'tittle-active') {
                 tittle[i].classList.remove('tittle-active');
                 tittle[i].parentElement.childNodes[3].classList.remove('active-Arrow');
                 tittle[i].parentElement.childNodes[5].classList.remove('active');

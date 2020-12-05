@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9593069-f5b4-4e27-9cbe-54d54e8ed3ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
@@ -52,6 +51,7 @@
       <updated>1606318431068</updated>
       <workItem from="1606318435446" duration="8482000" />
       <workItem from="1607042903290" duration="4742000" />
+      <workItem from="1607138226832" duration="1047000" />
     </task>
     <servers />
   </component>
@@ -75,6 +75,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Se añadio la funcion reiniciar todos los acordeones" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="514" y="253" key="#Notifications" timestamp="1607138273873">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="514" y="253" key="#Notifications/0.0.1600.860@0.0.1600.860" timestamp="1607138273873" />
     <state x="331" y="74" key="SettingsEditor" timestamp="1607050325635">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
