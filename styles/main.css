@@ -91,9 +91,6 @@ h1{
     width: 95%;
     color:var(--neutral-text-dark);
 }
-.card-tittle-text:hover{
-    color:var(--primary-text-hover)
-}
 
 .card-tittle-arrow{
     width: 5%;
