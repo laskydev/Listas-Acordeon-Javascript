@@ -6,6 +6,11 @@
 
 html{
     font-size: 100%;
+    --primary-text-dark: hsl(238, 29%, 16%);
+    --primary-text-hover:hsl(14, 88%, 65%);
+    --neutral-text-dark: hsl(237, 12%, 33%);
+    --neutral-text-gray: hsl(240, 6%, 50%);
+    --divider:hsl(240, 5%, 91%);
 
 }
 
@@ -19,6 +24,10 @@ body{
     align-items: center;
     font-size: 12px;
     flex-direction: column;
+}
+
+h1{
+    color:var(--primary-text-dark);
 }
 
 .card{
@@ -44,6 +53,7 @@ body{
 
 .card-acording{
     display: none;
+    color:var(--neutral-text-gray)
 }
 
 .tittle-active{
@@ -64,7 +74,7 @@ body{
     text-align: left;
     padding: 1rem;
     width: 95%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--divider);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -74,8 +84,10 @@ body{
 
 .card-tittle-text{
     width: 95%;
-
-
+    color:var(--neutral-text-dark);
+}
+.card-tittle-text:hover{
+    color:var(--primary-text-hover)
 }
 
 .card-tittle-arrow{

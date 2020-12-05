@@ -2,30 +2,32 @@
 const escuchandoElBody = document.body.addEventListener("click", elementoClick);
 
 
-//Declaramos las funciones
+//-----------------FUNCIONES---------------------//
 
+    //Funcion principal
 function elementoClick(e) {
     e.preventDefault();
     //Definiendo los elementos que pueden ser clickados
     const cardTittleClicked = e.target.classList.contains('card-tittle');
     const cardTittleArrowClicked = e.target.classList.contains('card-tittle-arrow');
+    const cardAcording = e.target.classList.contains('card-acording');
     const cardTittleTextClicked = e.target.classList.contains('card-tittle-text');
 
 
     if (cardTittleClicked) {
         seClickoEnElPadre(e);
-    } else if (cardTittleTextClicked || cardTittleArrowClicked) {
+    } else if (cardTittleTextClicked || cardTittleArrowClicked || cardAcording) {
         seClickoEnHermano(e);
     }
 }
 
-//Funciones
 
-//Reinicia los acordeones al dar click, se cierra el que estaba abierto si da click en otro
+
+    //Reinicia los acordeones al dar click, se cierra el que estaba abierto si da click en otro
 function reiniciaTodosLosAcordeones() {
     //Selecciona todos los titulos de acordeones y los convierte a un array
     let tittle = document.querySelectorAll('.card-tittle-text');
-    tittle = [...tittle];
+
 
     /*Recorre cada titulo y luego recorre cada clase dentro de los titulos
     posterior a eso verifica si cuentan con la clase tittle active y si es así
