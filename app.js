@@ -13,7 +13,6 @@ function elementoClick(e) {
     const cardAcording = e.target.classList.contains('card-acording');
     const cardTittleTextClicked = e.target.classList.contains('card-tittle-text');
 
-
     if (cardTittleClicked) {
         seClickoEnElPadre(e);
     } else if (cardTittleTextClicked || cardTittleArrowClicked || cardAcording) {

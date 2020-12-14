@@ -45,7 +45,8 @@ h1{
 .card h1{
     display: flex;
     justify-content: center;
-    margin-top: 50px
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .hero-image{
@@ -93,8 +94,7 @@ h1{
 }
 
 .card-tittle-arrow{
-    width: 5%;
-    height: 8px;
+    width: 6%;
     margin-right: -10px
 
 }
@@ -102,3 +102,34 @@ h1{
 p{
     text-align: left;
 }
+
+/*---------------------------MEDIAQUERIES MODIFICANDO EL TAMAÑO------------------------------*/
+
+    /*TAMAÑO TABLET GRANDE*/
+
+@media (min-width: 768px) {
+    @media (orientation: landscape) {
+        body{
+            font-size: 1rem;
+        }
+        h1{
+            font-size: 2.2rem;
+        }
+        .card{
+            min-height: 85vh;
+        }
+        .card-tittle{
+            margin-bottom: 1rem;
+        }
+        .card-tittle-arrow{
+            width: 3%;
+        }
+        .hero-image{
+            margin-top: -12vh;
+        }
+    }
+    body{
+        background-color: rebeccapurple;
+    }
+}
+
